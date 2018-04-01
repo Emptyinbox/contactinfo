@@ -7,7 +7,7 @@
     storageBucket: "contactform-14cf2.appspot.com",
     messagingSenderId: "856490549494"
   };
-  firebase.initializeApp(config);
+firebase.initializeApp(config);
 
 // Reference messages collection
 var messagesRef = firebase.database().ref('messages');
